@@ -1,5 +1,8 @@
 {
   "1.0.1": {
     "en": "fixed some app validation issues"
+  },
+  "1.0.2": {
+    "en": "fix image size"
   }
 }
