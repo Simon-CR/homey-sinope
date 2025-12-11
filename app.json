@@ -4,7 +4,8 @@
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "author": {
-    "name": "Simon"
+    "name": "Simon Cloutier",
+    "email": "scr_homey@cloutier.one"
   },
   "brandColor": "#00A4E4",
   "name": {
