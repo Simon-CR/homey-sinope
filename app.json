@@ -1,0 +1,45 @@
+{
+  "id": "com.sinope",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "name": {
+    "en": "Sinope"
+  },
+  "description": {
+    "en": "Support for Sinope Zigbee devices"
+  },
+  "category": "climate",
+  "permissions": [
+    "homey:wireless:zigbee"
+  ],
+  "drivers": [
+    {
+      "id": "th112xzb",
+      "name": {
+        "en": "Sinope Thermostat (Zigbee)"
+      },
+      "class": "thermostat",
+      "capabilities": [
+        "measure_temperature",
+        "target_temperature",
+        "thermostat_mode",
+        "measure_power",
+        "meter_power"
+      ],
+      "zigbeeManufacturerName": [
+        "Sinope Technologies"
+      ],
+      "zigbeeModelId": [
+        "TH1123ZB",
+        "TH1124ZB",
+        "TH1123ZB-G2",
+        "TH1124ZB-G2"
+      ],
+      "images": {
+        "large": "drivers/th112xzb/assets/images/large.jpg",
+        "small": "drivers/th112xzb/assets/images/small.jpg"
+      }
+    }
+  ]
+}

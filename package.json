@@ -1,0 +1,16 @@
+{
+  "name": "com.sinope",
+  "version": "1.0.0",
+  "description": "Homey app for Sinope Zigbee devices",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "homey-zigbeedriver": "^2.2.3",
+    "zigbee-clusters": "^2.1.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
