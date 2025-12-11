@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "compatibility": ">=5.0.0",
   "sdk": 3,
+  "author": {
+    "name": "Simon"
+  },
+  "brandColor": "#00A4E4",
   "name": {
     "en": "Sinope"
   },
@@ -10,6 +14,10 @@
     "en": "Support for Sinope Zigbee devices"
   },
   "category": "climate",
+  "images": {
+    "large": "assets/images/large.jpg",
+    "small": "assets/images/small.jpg"
+  },
   "permissions": [
     "homey:wireless:zigbee"
   ],
